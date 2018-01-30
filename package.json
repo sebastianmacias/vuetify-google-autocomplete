@@ -1,44 +1,37 @@
 {
   "name": "vuetify-google-autocomplete",
   "version": "1.1.0",
-  "description": "A Vuetify ready Vue.jS component to Google Places Autocomplete",
+  "description":
+    "A Vuetify ready Vue.jS component to Google Places Autocomplete",
   "main": "src/VuetifyGoogleAutocomplete.vue",
   "homepage": "https://github.com/MadimetjaShika/vuetify-google-autocomplete",
   "repository": {
     "type": "git",
     "url": "https://github.com/MadimetjaShika/vuetify-google-autocomplete.git"
   },
-  "keywords": [
-    "vue",
-    "vuetify",
-    "google",
-    "autocomplete"
-  ],
+  "keywords": ["vue", "vuetify", "google", "autocomplete"],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
-    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "watch":
+      "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
-    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "production":
+      "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "deploy:example": "gh-pages -d example/dist",
     "test": "NODE_PATH=test ava --verbose"
   },
   "ava": {
-    "require": [
-      "babel-register",
-      "./test/helpers/setup.js"
-    ]
+    "require": ["babel-register", "./test/helpers/setup.js"]
   },
   "author": "Dmitriy Olefyrenko <dmitriy.olefirenko@gmail.com>",
-  "contributors": [
-    "Madi Shika <mmjshika@gmail.com>"
-  ],
+  "contributors": ["Madi Shika <mmjshika@gmail.com>"],
   "license": "MIT",
   "peerDependencies": {
     "vue": ">=2",
     "vuetify": ">=0.16.9"
   },
   "dependencies": {
-    "vue": "^2.5.2",
+    "vue": "^2.5.13",
     "vuetify": "^0.16.9"
   },
   "devDependencies": {
